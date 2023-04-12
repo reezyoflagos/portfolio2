@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.abouts{
+     margin:20px;
+     padding:40px;
+     display: flex;
+     background-color:whitesmoke;
+     @media(max-width:576px){
+        display: grid;
+     }
+    img {
+        width:90px;
+        height:200px;
+        margin:30px;
+        @media(max-width:576px){
+            width:200px;
+        }
+
+        }
+        .rest{
+           margin:40px;
+           text-align: center;
+           padding:30px;
+           align-items: center;
+           @media(max-width:576px){
+            margin:-40px;
+           }
+        }
+}

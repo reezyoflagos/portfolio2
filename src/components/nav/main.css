@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: cornsilk;
+}
+.header .pics img {
+  width: 130px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.header .first ul {
+  list-style: none;
+  padding-top: 20px;
+  display: flex;
+}
+@media (max-width: 576px) {
+  .header .first ul {
+    display: none;
+  }
+}
+.header .first ul li {
+  list-style: none;
+  padding: 20px;
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header .first ul li:hover {
+  color: green;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.header .first ul li:active {
+  background-color: goldenrod;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */

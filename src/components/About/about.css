@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.abouts {
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  background-color: whitesmoke;
+}
+@media (max-width: 576px) {
+  .abouts {
+    display: grid;
+  }
+}
+.abouts img {
+  width: 90px;
+  height: 200px;
+  margin: 30px;
+}
+@media (max-width: 576px) {
+  .abouts img {
+    width: 200px;
+  }
+}
+.abouts .rest {
+  margin: 40px;
+  text-align: center;
+  padding: 30px;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .abouts .rest {
+    margin: -40px;
+  }
+}/*# sourceMappingURL=About.css.map */
